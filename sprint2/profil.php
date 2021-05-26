@@ -22,7 +22,7 @@ require 'function.php';
             <form action="" method="post" enctype="multipart/form-data">
 
                 <?php  
-                //cek apakah tombol submit sudah ditekan atau belum
+                //untuk cek apakah tombol submit sudah ditekan atau belum
                 if(isset ($_POST["kirim"])) {
 
                 //cek apakah data berhasil ditambahkan
