@@ -29,6 +29,7 @@ require 'function.php';
                 if (tambah ($_POST) > 0) {
                     echo "<script>
                             alert('Berhasil mengirimkan laporan !!')
+                            document.location = 'index.php';
                             </script>";
                 } else {
                     echo "<script>
