@@ -53,7 +53,10 @@ function upload() {
 	if( !in_array($extFoto, $allowExt) ) {
 		echo "<script>
 			alert('Upload file dengan ekstensi jpg, jpeg, atau png');
+			document.location = 'buatlaporan.php'
 			</script>";
+			exit;
+
 	}
 
 
