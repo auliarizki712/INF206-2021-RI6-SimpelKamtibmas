@@ -53,7 +53,7 @@ $result = mysqli_query($conn, "SELECT * FROM laporan  WHERE id LIKE '%$cari%' OR
             <a  href="logout.php"><button class="logout-btn">Logout</button></a>
             
             <form action="LihatLaporan.php" method="post">
-                <input type="text" name="cari" class="cari">
+                <input type="text" name="cari" class="cari" placeholder="Masukkan keyword pencarian" autocomplete="off">
                 <button type="submit" name="tombolcari" class="tombolcari">Cari Laporan</button>
             </form>
 
