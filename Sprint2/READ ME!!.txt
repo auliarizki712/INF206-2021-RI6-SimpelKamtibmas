@@ -1,0 +1,3 @@
+READ ME!!!!!!
+
+Tambahkan folder kosong dengan nama "images" didalam file sprint 2 agar bisa dijalankan
